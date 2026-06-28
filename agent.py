@@ -8,8 +8,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # ✅ Correct model name
-model = genai.GenerativeModel("gemini-1.5-flash")
-
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 def analyze_resume(resume_text: str, job_role: str) -> dict:
     """
