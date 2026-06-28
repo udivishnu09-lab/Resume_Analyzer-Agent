@@ -6,10 +6,10 @@ load_dotenv()
 
 # Configure Gemini API
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+print("API KEY:", os.getenv("GOOGLE_API_KEY"))
 
 # ✅ Correct model name
-model = genai.GenerativeModel("gemini-1.5-flash-8b")
-
+model = genai.GenerativeModel("models/gemini-1.5-pro")
 def analyze_resume(resume_text: str, job_role: str) -> dict:
     """
     Agentic AI: Runs multiple steps to analyze and improve the resume.
