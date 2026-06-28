@@ -60,3 +60,6 @@ http://localhost:8501
 - **Google Gemini 1.5 Flash** — AI/LLM
 - **pdfplumber** — PDF parsing
 - **python-dotenv** — Environment variables
+
+## 🌐 Live Demo
+👉 **[Click Here to Use the App](https://resumeanalyzer-agent-dzj7nan7pqgntimuxm5yjj.streamlit.app/)**
